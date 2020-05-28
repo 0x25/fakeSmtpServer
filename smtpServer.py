@@ -1,5 +1,9 @@
 """simple python smtp server for test purpose """
 
+#python2
+# possible to run sudo python -m smtpd -c DebuggingServer -n localhost:25
+# to start a temp server
+
 from datetime import datetime
 import asyncore
 from smtpd import SMTPServer
