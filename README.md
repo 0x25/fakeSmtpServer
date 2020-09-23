@@ -16,8 +16,8 @@ folder test contain test script to send fake mail
 #Simple !
 
 
-exract data from eml file from cli
+exract data from eml file from cli  
 
-sudo apt-get install mpack
-munpack -f -t 20200922155042-8.eml
+sudo apt-get install mpack  
+munpack -f -t 20200922155042-8.eml  
 
